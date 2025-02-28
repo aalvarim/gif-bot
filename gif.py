@@ -1,6 +1,7 @@
+import os
 import discord
 
-TOKEN = "MTM0NTA0MzI3OTcyNDU0ODE0Ng.GNoULM.iNaUYLfzSHFKmTYPPJwCnlzySOy2zpr-68VJeM"
+TOKEN = "MTM0NTA0MzI3OTcyNDU0ODE0Ng.GNoULM.iNaUYLfzSHFKmTYPPJwCnlzySOy2zpr-68VJeM"  # Pegando token da variável de ambiente
 
 intents = discord.Intents.default()
 intents.messages = True
@@ -10,8 +11,8 @@ client = discord.Client(intents=intents)
 
 # Dicionário de usuários e seus GIFs
 user_gifs = {
-    464832828102672394: "https://media.discordapp.net/attachments/1041429282611802143/1041782896693874749/bloggif_62b85b1b34b59.gif?ex=67c2aa2d&is=67c158ad&hm=4547a4d64e00c8739e56f1e895005c6fed77ae45c593da791c454fc038fa7193&",  #dark
-    620629615144206346: "https://tenor.com/view/ichigo-kurosaki-ichigo-kurosaki-kurosaki-ichigo-from-the-back-gif-8670209085434552677",  #zé
+    464832828102672394: "https://media.discordapp.net/attachments/1041429282611802143/1041782896693874749/bloggif_62b85b1b34b59.gif",  # dark
+    620629615144206346: "https://tenor.com/view/ichigo-kurosaki-ichigo-kurosaki-kurosaki-ichigo-from-the-back-gif",  # zé
 }
 
 @client.event
