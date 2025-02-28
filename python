@@ -1,6 +1,6 @@
 import discord
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "MTM0NTA0MzI3OTcyNDU0ODE0Ng.GNoULM.iNaUYLfzSHFKmTYPPJwCnlzySOy2zpr-68VJeM"
 
 intents = discord.Intents.default()
 intents.messages = True
